@@ -1,0 +1,64 @@
+# OS-specific files
+*.swp  # Temporary files created by Vim
+*.swo
+*.bak  # Backup files
+
+# Local IDE/editor settings
+.idea/
+.vscode/
+*.code-workspace
+
+# Log and temporary files
+*.log
+*.tmp
+*.pid
+*.lock
+
+# Compiled files
+*.o
+*.so
+*.a
+*.out
+*.exe
+
+# Python virtual environments and cache
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+
+# Node.js dependencies and build artifacts
+node_modules/
+dist/
+build/
+
+# Sensitive files
+.env
+*.key
+*.pem
+.credentials
+
+# Package manager files
+*.egg-info/
+package-lock.json
+yarn.lock
+
+# Docker-related files
+*.dockerfile
+docker-compose.override.yml
+
+# Terraform and infrastructure files
+.terraform/
+*.tfstate
+*.tfstate.backup
+
+# Backup and archive files
+*.zip
+*.tar.gz
+*.rar
+*.7z
+*.bak
+
+# Miscellaneous
+.DS_Store
+Thumbs.db

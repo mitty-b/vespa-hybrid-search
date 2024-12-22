@@ -1,0 +1,4 @@
+pyvespa
+datasets
+pandas
+docker
